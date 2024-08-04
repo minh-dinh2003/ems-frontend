@@ -5,7 +5,7 @@ const HeaderComponent = () => {
     <div>
         <header>
             <nar className='navbar navbar-dark bg-dark'>
-                <a className='navbar-brand' href='http://localhost:3000/'>Employee Management System</a>
+                <a className='navbar-brand' href='https://minh-dinh2003.github.io/ems-frontend/employees'>Employee Management System</a>
             </nar>
         </header>
     </div>
