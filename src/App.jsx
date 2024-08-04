@@ -5,7 +5,7 @@ import './App.css'
 import ListEmployeeComponent from './components/ListEmployeeComponent'
 import HeaderComponent from './components/HeaderComponent'
 import FooterComponent from './components/FooterComponent'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import EmployeeComponent from './components/EmployeeComponent'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <HeaderComponent />
         <Routes>
           <Route path='/' element={<ListEmployeeComponent />}></Route>
@@ -22,7 +22,7 @@ function App() {
           <Route path='/update' element = {<EmployeeComponent/>}></Route>
         </Routes>
         <FooterComponent />
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
