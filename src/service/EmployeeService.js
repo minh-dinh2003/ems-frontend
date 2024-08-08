@@ -1,7 +1,7 @@
 // api.js or a similar file
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/employees';
+const REST_API_BASE_URL = 'https://ems-backend-7cq3.onrender.com/api/employees';
 
 // Function to handle logout
 export const logout = () => {
@@ -9,7 +9,7 @@ export const logout = () => {
   localStorage.removeItem('authToken');
 
   // Optionally, you might want to perform additional actions like redirecting the user
-  window.location.href = '/login'; // Redirect to login page
+  window.location.href = '/'; // Redirect to login page
 };
 
 // Example of adding token to requests
