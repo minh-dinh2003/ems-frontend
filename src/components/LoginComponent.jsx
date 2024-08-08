@@ -13,7 +13,7 @@ const LoginComponent = () => {
 
     try {
       // Sending POST request with email and password
-      const response = await axios.post('http://localhost:8080/api/v1/auth/authenticate', {
+      const response = await axios.post('https://beneficial-comfort-production.up.railway.app/api/v1/auth/authenticate', {
         email,
         password,
       });

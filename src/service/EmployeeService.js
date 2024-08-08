@@ -1,7 +1,7 @@
 // api.js or a similar file
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'https://ems-backend-7cq3.onrender.com/api/employees';
+const REST_API_BASE_URL = 'https://beneficial-comfort-production.up.railway.app/api/employees';
 
 // Function to handle logout
 export const logout = () => {
