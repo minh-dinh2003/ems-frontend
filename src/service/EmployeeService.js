@@ -1,7 +1,7 @@
 // api.js or a similar file
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'https://beneficial-comfort-production.up.railway.app/api/employees';
+const REST_API_BASE_URL = 'http://localhost:8080/api/employees';
 
 // Function to handle logout
 export const logout = () => {
